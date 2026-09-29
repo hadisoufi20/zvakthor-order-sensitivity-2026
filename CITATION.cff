@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper and the pre-registration."
+title: "Order Invariance at the Last Language-Model Boundary: A Pre-Registered Test of an LLM Evidence Synthesizer Inside a Deterministic Trading Architecture"
+authors:
+  - family-names: Soufi
+    given-names: Hadi
+    email: hadi@hadisoufi.com
+date-released: 2026-09-29
+license: MIT
+repository-code: "https://github.com/hadisoufi20/zvakthor-order-sensitivity-2026"
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/M398V
+    description: OSF pre-registration

@@ -1,0 +1,869 @@
+{
+  "seed": 20261001,
+  "sets": [
+    {
+      "set_id": "A01",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.73"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.6,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.22)"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 30, price below EMA50"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "negative surprise index 0.45 on latest releases"
+        },
+        "correlation": {
+          "direction": "NEUTRAL",
+          "confidence": 0.58,
+          "quality": "real",
+          "reason": "cross-asset moves flat (0.23%), no clear driver"
+        }
+      }
+    },
+    {
+      "set_id": "A02",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.63,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.32)"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.6,
+          "quality": "real",
+          "reason": "positive surprise index 0.79 on latest releases"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.61,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 34, price below EMA50"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.63,
+          "quality": "real",
+          "reason": "DXY strengthening 0.46% with risk-off equities"
+        },
+        "ml_structure": {
+          "direction": "NEUTRAL",
+          "confidence": 0.49,
+          "quality": "real",
+          "reason": "mixed structure, composite score 0.70"
+        }
+      }
+    },
+    {
+      "set_id": "A03",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.63,
+          "quality": "real",
+          "reason": "DXY weakening 0.19% with risk-on equities"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.65,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.34)"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.63,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.55"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "negative surprise index 0.93 on latest releases"
+        },
+        "regime": {
+          "direction": "NEUTRAL",
+          "confidence": 0.49,
+          "quality": "real",
+          "reason": "H1 range-bound, ADX 34, no directional regime"
+        }
+      }
+    },
+    {
+      "set_id": "A04",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.61,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.60"
+        },
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.61,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 28, price above EMA50"
+        },
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.64,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.42)"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.6,
+          "quality": "real",
+          "reason": "DXY strengthening 0.26% with risk-off equities"
+        },
+        "fundamental": {
+          "direction": "NEUTRAL",
+          "confidence": 0.55,
+          "quality": "real",
+          "reason": "surprise index 0.31, releases in line with consensus"
+        }
+      }
+    },
+    {
+      "set_id": "A05",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 22, price above EMA50"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.69,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.72"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.7,
+          "quality": "real",
+          "reason": "DXY strengthening 0.57% with risk-off equities"
+        },
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.31)"
+        },
+        "fundamental": {
+          "direction": "NEUTRAL",
+          "confidence": 0.51,
+          "quality": "real",
+          "reason": "surprise index 0.86, releases in line with consensus"
+        }
+      }
+    },
+    {
+      "set_id": "A06",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.7,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.43)"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "DXY weakening 0.38% with risk-on equities"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 23, price below EMA50"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.64"
+        },
+        "fundamental": {
+          "direction": "NEUTRAL",
+          "confidence": 0.59,
+          "quality": "real",
+          "reason": "surprise index 0.67, releases in line with consensus"
+        }
+      }
+    },
+    {
+      "set_id": "A07",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "positive surprise index 0.41 on latest releases"
+        },
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 33, price above EMA50"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.64,
+          "quality": "real",
+          "reason": "DXY strengthening 0.19% with risk-off equities"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.72"
+        },
+        "sentiment": {
+          "direction": "NEUTRAL",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "news sentiment balanced (score 0.27)"
+        }
+      }
+    },
+    {
+      "set_id": "A08",
+      "stratum": "A_balanced_conflict",
+      "votes": {
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.69,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.77"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.7,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.52)"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.72,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 22, price below EMA50"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.73,
+          "quality": "real",
+          "reason": "DXY strengthening 0.60% with risk-off equities"
+        },
+        "fundamental": {
+          "direction": "NEUTRAL",
+          "confidence": 0.59,
+          "quality": "real",
+          "reason": "surprise index 1.28, releases in line with consensus"
+        }
+      }
+    },
+    {
+      "set_id": "B01",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.34)"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.65"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "DXY weakening 0.50% with risk-on equities"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.65,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 18, price below EMA50"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.73,
+          "quality": "real",
+          "reason": "negative surprise index 0.62 on latest releases"
+        }
+      }
+    },
+    {
+      "set_id": "B02",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.59,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.27)"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.58,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.63"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.59,
+          "quality": "real",
+          "reason": "DXY strengthening 0.53% with risk-off equities"
+        },
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 23, price above EMA50"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.61,
+          "quality": "real",
+          "reason": "positive surprise index 0.69 on latest releases"
+        }
+      }
+    },
+    {
+      "set_id": "B03",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.65)"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.61,
+          "quality": "real",
+          "reason": "DXY weakening 0.40% with risk-on equities"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "positive surprise index 1.05 on latest releases"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.58"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 26, price below EMA50"
+        }
+      }
+    },
+    {
+      "set_id": "B04",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "negative surprise index 0.72 on latest releases"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.65,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.77"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.63,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 24, price below EMA50"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.58,
+          "quality": "real",
+          "reason": "DXY weakening 0.24% with risk-on equities"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.65,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.54)"
+        }
+      }
+    },
+    {
+      "set_id": "B05",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.53,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.59"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.59,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.29)"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "DXY weakening 0.40% with risk-on equities"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.59,
+          "quality": "real",
+          "reason": "negative surprise index 1.22 on latest releases"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.6,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 28, price below EMA50"
+        }
+      }
+    },
+    {
+      "set_id": "B06",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "negative surprise index 1.09 on latest releases"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.65,
+          "quality": "real",
+          "reason": "DXY strengthening 0.12% with risk-off equities"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 29, price below EMA50"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.62,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.75"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.41)"
+        }
+      }
+    },
+    {
+      "set_id": "B07",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 27, price above EMA50"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.62,
+          "quality": "real",
+          "reason": "positive surprise index 1.41 on latest releases"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.36)"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.6,
+          "quality": "real",
+          "reason": "DXY strengthening 0.16% with risk-off equities"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.65,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.72"
+        }
+      }
+    },
+    {
+      "set_id": "B08",
+      "stratum": "B_weak_majority",
+      "votes": {
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.61,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.45)"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.52,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.60"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.58,
+          "quality": "real",
+          "reason": "negative surprise index 1.35 on latest releases"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.57,
+          "quality": "real",
+          "reason": "DXY weakening 0.17% with risk-on equities"
+        },
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.6,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 28, price above EMA50"
+        }
+      }
+    },
+    {
+      "set_id": "C01",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.35)"
+        },
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.84,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 21, price above EMA50"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.85,
+          "quality": "real",
+          "reason": "positive surprise index 1.17 on latest releases"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.81,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.64"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "DXY weakening 0.25% with risk-on equities"
+        }
+      }
+    },
+    {
+      "set_id": "C02",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.56"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.72,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 33, price below EMA50"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "DXY strengthening 0.14% with risk-off equities"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.83,
+          "quality": "real",
+          "reason": "negative surprise index 0.86 on latest releases"
+        },
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.72,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.63)"
+        }
+      }
+    },
+    {
+      "set_id": "C03",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.77,
+          "quality": "real",
+          "reason": "positive surprise index 0.94 on latest releases"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.62"
+        },
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.72,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 29, price above EMA50"
+        },
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.74,
+          "quality": "real",
+          "reason": "DXY weakening 0.19% with risk-on equities"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.72,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.36)"
+        }
+      }
+    },
+    {
+      "set_id": "C04",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.69,
+          "quality": "real",
+          "reason": "DXY strengthening 0.16% with risk-off equities"
+        },
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.67,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.48)"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.76,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 29, price below EMA50"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.7,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.79"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.78,
+          "quality": "real",
+          "reason": "negative surprise index 1.44 on latest releases"
+        }
+      }
+    },
+    {
+      "set_id": "C05",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "correlation": {
+          "direction": "BUY",
+          "confidence": 0.66,
+          "quality": "real",
+          "reason": "DXY weakening 0.10% with risk-on equities"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.78,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.47)"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.56"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.82,
+          "quality": "real",
+          "reason": "positive surprise index 0.34 on latest releases"
+        },
+        "regime": {
+          "direction": "NEUTRAL",
+          "confidence": 0.74,
+          "quality": "real",
+          "reason": "H1 range-bound, ADX 29, no directional regime"
+        }
+      }
+    },
+    {
+      "set_id": "C06",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.85,
+          "quality": "real",
+          "reason": "negative surprise index 0.62 on latest releases"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.81,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 22, price below EMA50"
+        },
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.7,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.35)"
+        },
+        "ml_structure": {
+          "direction": "SELL",
+          "confidence": 0.76,
+          "quality": "real",
+          "reason": "bearish structure: upthrust confirmed, composite score 0.77"
+        },
+        "correlation": {
+          "direction": "NEUTRAL",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "cross-asset moves flat (0.43%), no clear driver"
+        }
+      }
+    },
+    {
+      "set_id": "C07",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "regime": {
+          "direction": "BUY",
+          "confidence": 0.72,
+          "quality": "real",
+          "reason": "H1 uptrend, ADX 20, price above EMA50"
+        },
+        "sentiment": {
+          "direction": "BUY",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "news sentiment positive (score 0.52)"
+        },
+        "fundamental": {
+          "direction": "BUY",
+          "confidence": 0.71,
+          "quality": "real",
+          "reason": "positive surprise index 0.50 on latest releases"
+        },
+        "ml_structure": {
+          "direction": "BUY",
+          "confidence": 0.82,
+          "quality": "real",
+          "reason": "bullish structure: spring confirmed, composite score 0.74"
+        },
+        "correlation": {
+          "direction": "NEUTRAL",
+          "confidence": 0.83,
+          "quality": "real",
+          "reason": "cross-asset moves flat (0.39%), no clear driver"
+        }
+      }
+    },
+    {
+      "set_id": "C08",
+      "stratum": "C_clear_consensus",
+      "votes": {
+        "sentiment": {
+          "direction": "SELL",
+          "confidence": 0.77,
+          "quality": "real",
+          "reason": "news sentiment negative (score 0.50)"
+        },
+        "regime": {
+          "direction": "SELL",
+          "confidence": 0.84,
+          "quality": "real",
+          "reason": "H1 downtrend, ADX 33, price below EMA50"
+        },
+        "correlation": {
+          "direction": "SELL",
+          "confidence": 0.68,
+          "quality": "real",
+          "reason": "DXY strengthening 0.17% with risk-off equities"
+        },
+        "fundamental": {
+          "direction": "SELL",
+          "confidence": 0.79,
+          "quality": "real",
+          "reason": "negative surprise index 0.22 on latest releases"
+        },
+        "ml_structure": {
+          "direction": "NEUTRAL",
+          "confidence": 0.76,
+          "quality": "real",
+          "reason": "mixed structure, composite score 0.75"
+        }
+      }
+    }
+  ]
+}
