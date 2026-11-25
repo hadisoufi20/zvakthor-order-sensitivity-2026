@@ -83,6 +83,12 @@ python run_trials.py --only deepseek
 
 See the paper for the full results, the deviations from the plan, and the limitations.
 
+## Note on the aggregation rule (November 2026)
+
+The first posted version of the paper describes vote aggregation as order-invariant by construction. That holds in exact arithmetic. The floating-point implementation (`aggregate` in `common.py`) can return different outcomes for different vote orders when the margin falls exactly on the consensus threshold. The recorded trials are not affected.
+
+[`order_invariance_floating_point.ipynb`](order_invariance_floating_point.ipynb) reproduces the dependence and the check on the recorded trials. It needs only the Python standard library and runs from this folder. It was added after the study and is not part of the registered analysis; the frozen study files are unchanged.
+
 ## Licence
 
 - **Code:** MIT (see `LICENSE`).
